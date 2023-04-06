@@ -4,13 +4,40 @@
   
   
   <entry>
+    <title>第一次面试-美团一面记录</title>
+    <link href="/2023/04/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95-%E7%BE%8E%E5%9B%A2%E4%B8%80%E9%9D%A2%E8%AE%B0%E5%BD%95/"/>
+    <url>/2023/04/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95-%E7%BE%8E%E5%9B%A2%E4%B8%80%E9%9D%A2%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ol><li>简单自我介绍</li><li>在学校做过哪些项目，遇到过什么困难，怎么解决的？</li><li>HashMap的底层结构？是否能保证线程安全</li><li>如果要保证线程安全，需要用什么哈希表？结构？</li><li>线程的创建方式？</li><li>如果需要返回值，线程如何创建？</li><li>volatile的作用？能否在<code>i++</code>时使用？</li><li>synchronized的作用？</li><li>假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？</li><li>设计模式了解吗？了解哪些？</li><li>简单提了一下消息队列</li><li>数据库的锁有哪些？</li><li>数据库的索引作用及结构？</li><li>B+树的好处？</li><li>B树与B+树的区别？</li><li>数据库的事务？</li><li>为什么一张表不应超过500万行？表如果大于500万行应该如何存储？</li><li>你什么时候可以来实习？实习多久？</li><li>你有什么需要提问的？</li></ol><h3 id="面试感想"><a href="#面试感想" class="headerlink" title="面试感想"></a>面试感想</h3><p>Java特性部分答得还算流畅，会议室场景部分确实很迷。数据库的部分基本没看，都没怎么答上来……</p><p>总体流程40分钟，没有算法题，面试官基本上不苟言笑，我倒是有点嬉皮笑脸orz</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>面试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>JVM Learning</title>
     <link href="/2023/04/01/JVM-Learning/"/>
     <url>/2023/04/01/JVM-Learning/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h3 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h3><h4 id="方法区存储内容"><a href="#方法区存储内容" class="headerlink" title="方法区存储内容"></a>方法区存储内容</h4><p>类型信息</p><p>对每个加载的类型（class interface enum annotation），JVM必须存储以下类型信息：</p><ol><li>类型的完整有效名称（包名.类名）</li><li>类型直接父类的完整有效名</li><li>类型的修饰符</li><li>类型直接接口的有序列表</li></ol><p>域信息</p><blockquote><p>也就是类型的成员变量</p></blockquote><ol><li>JVM必须在方法区中保存类型的所有域的相关信息以及域的声明顺序</li><li>域的相关信息包括：域名称、域类型、域修饰符</li></ol><p>方法信息</p><ol><li>方法名称</li><li>方法的返回类型，包括void，void在Java中对应的是void.class</li><li>方法参数的数量和类型（按照顺序）</li><li>方法的修饰符</li><li>方法的字节码、操作数栈、局部变量表及大小</li><li>异常表，异常表记录每个异常处理的开始位置、结束位置、代码处理在程序计数器中的偏移地址、被捕获的异常类的常量池索引</li></ol><h4 id="non-final类型的类变量"><a href="#non-final类型的类变量" class="headerlink" title="non-final类型的类变量"></a>non-final类型的类变量</h4><ol><li>静态变量和类关联在一起，随着类的加载而加载，他们成为类数据在逻辑上的一部分</li><li>类变量被所有类的实例所共享，即使没有实例，也可以访问</li></ol><h4 id="全局常量：static-final"><a href="#全局常量：static-final" class="headerlink" title="全局常量：static final"></a>全局常量：static final</h4><ol><li>全局常量就是使用static final修饰的</li><li>被声明为final的类变量的处理方法不同，每个全局常量在编译的时候就被分配了</li></ol><h3 id="运行时常量池"><a href="#运行时常量池" class="headerlink" title="运行时常量池"></a>运行时常量池</h3><ol><li>方法区，内部包含了运行时常量池</li><li>字节码文件，内部包含了常量池</li><li>要弄清楚方法区，就需要理解ClassFile，因为加载类的信息都在方法区。</li><li>要弄清楚方法区的运行时常量池，需要理解清楚ClassFile中的常量池</li></ol><h4 id="常量池"><a href="#常量池" class="headerlink" title="常量池"></a>常量池</h4><p>字节码文件中的常量池中的内容：</p><ol><li>数量值</li><li>字符串值</li><li>类引用</li><li>字段引用</li><li>方法引用</li></ol><p>常量池可以看作一张表，虚拟机指令根据这张表找到要执行的类名方法名、参数类型和字面量</p><h4 id="运行时常量池-1"><a href="#运行时常量池-1" class="headerlink" title="运行时常量池"></a>运行时常量池</h4><ol><li>是方法区的一部分</li><li>常量池表作为字节码文件的一部分，用于存放编译器生成的各种字面量与符号引用，这部分内容将在类加载后存放到方法区的运行时常量池中。</li><li>运行时常量池在加载类和接口到虚拟机后，就会创建对应的运行时常量池。</li><li>JVM为每个已加载的类型都维护一个常量池。池中的数据项像数组一样，是通过索引访问的</li><li>运行时常量池中包含多种不同的常量，包括编译器就已经明确的数值字面量，也包括运行期解析后才能够获得的方法或者字段引用。此时不再是符号地址，而是真实地址。<font color = red>运行时常量池具备动态性</font></li><li>运行时常量池类似于传统变成语言中的符号表，但是它所包含的数据比符号更加丰富</li><li>当创建类或接口的运行时常量池时，如果构造运行时常量池所需的内存空间超过了方法区所能提供的最大值，则抛出OOM</li></ol><h3 id="执行引擎"><a href="#执行引擎" class="headerlink" title="执行引擎"></a>执行引擎</h3><p>虚拟机可以执行哪些不被硬件直接支持的指令集格式。</p><p>JVM将字节码装载到内部，但字节码不能直接运行在操作系统上。</p><p>为了让程序能够运行起来，执行引擎就是将字节码指令解释&#x2F;编译成对应平台上的本地机器指令。</p><p>执行引擎有两种行为：一种是解释执行，另一种是编译执行（后端编译，从Java程序到字节码这个过程是前端编译）</p><p>执行引擎解释器对字节码采用逐行解释的方式执行，将每条字节码文件的内容“翻译”为对应平台的本地机器指令执行；JIT（Just In Time Compiler）编译器，就是虚拟机将源代码一次性编译成和本地机器平台相关的机器语言，但不是马上执行。</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>JVM</tag>
+      
+      <tag>计算机学习</tag>
+      
+    </tags>
     
   </entry>
   
