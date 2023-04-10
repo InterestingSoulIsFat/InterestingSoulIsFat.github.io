@@ -4,11 +4,30 @@
   
   
   <entry>
+    <title>美团二面</title>
+    <link href="/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h2><ol><li><p>自我介绍</p></li><li><p>操作系统相关问题</p><ol><li>进程、线程、协程分别是什么？</li><li>上下文切换的区别？</li><li>操作系统内核态和用户态？</li></ol></li><li><p>计网相关</p><ol><li>DNS过程？</li></ol></li><li><p>数据库相关</p><ol><li>B+树</li><li>构建过程？？</li></ol></li><li><p>Java相关</p><ol><li>内存模型</li><li>垃圾回收</li><li>Spring</li><li>SpringMVC分发机制（Dispatch）</li></ol></li><li><p>算法题：数独（9*9）</p></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>面试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第一次面试-美团一面记录</title>
     <link href="/2023/04/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95-%E7%BE%8E%E5%9B%A2%E4%B8%80%E9%9D%A2%E8%AE%B0%E5%BD%95/"/>
     <url>/2023/04/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95-%E7%BE%8E%E5%9B%A2%E4%B8%80%E9%9D%A2%E8%AE%B0%E5%BD%95/</url>
     
-    <content type="html"><![CDATA[<h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ol><li>简单自我介绍</li><li>在学校做过哪些项目，遇到过什么困难，怎么解决的？</li><li>HashMap的底层结构？是否能保证线程安全</li><li>如果要保证线程安全，需要用什么哈希表？结构？</li><li>线程的创建方式？</li><li>如果需要返回值，线程如何创建？</li><li>volatile的作用？能否在<code>i++</code>时使用？</li><li>synchronized的作用？</li><li>假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？</li><li>设计模式了解吗？了解哪些？</li><li>简单提了一下消息队列</li><li>数据库的锁有哪些？</li><li>数据库的索引作用及结构？</li><li>B+树的好处？</li><li>B树与B+树的区别？</li><li>数据库的事务？</li><li>为什么一张表不应超过500万行？表如果大于500万行应该如何存储？</li><li>你什么时候可以来实习？实习多久？</li><li>你有什么需要提问的？</li></ol><h3 id="面试感想"><a href="#面试感想" class="headerlink" title="面试感想"></a>面试感想</h3><p>Java特性部分答得还算流畅，会议室场景部分确实很迷。数据库的部分基本没看，都没怎么答上来……</p><p>总体流程40分钟，没有算法题，面试官基本上不苟言笑，我倒是有点嬉皮笑脸orz</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ol><li>简单自我介绍</li><li>在学校做过哪些项目，遇到过什么困难，怎么解决的？</li><li>HashMap的底层结构？是否能保证线程安全</li><li>如果要保证线程安全，需要用什么哈希表？结构？</li><li>线程的创建方式？</li><li>如果需要返回值，线程如何创建？</li><li>volatile的作用？能否在<code>i++</code>时使用？</li><li>synchronized的作用？</li><li>假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？</li><li>设计模式了解吗？了解哪些？</li><li>简单提了一下消息队列</li><li>数据库的锁有哪些？</li><li>数据库的索引作用及结构？</li><li>B+树的好处？</li><li>B树与B+树的区别？</li><li>数据库的事务？</li><li>为什么一张表不应超过500万行？表如果大于500万行应该如何存储？</li><li>你未来的职业规划是什么样的？</li><li>你什么时候可以来实习？实习多久？</li><li>你有什么需要提问的？</li></ol><h3 id="面试感想"><a href="#面试感想" class="headerlink" title="面试感想"></a>面试感想</h3><p>Java特性部分答得还算流畅，会议室场景部分确实很迷。数据库的部分基本没看，都没怎么答上来……</p><p>总体流程40分钟，没有算法题，面试官基本上不苟言笑，我倒是有点嬉皮笑脸orz</p>]]></content>
     
     
     
