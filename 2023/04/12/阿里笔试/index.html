@@ -13,25 +13,25 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="interestingsoul">
+  <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="问题记录 简单自我介绍 在学校做过哪些项目，遇到过什么困难，怎么解决的？ HashMap的底层结构？是否能保证线程安全 如果要保证线程安全，需要用什么哈希表？结构？ 线程的创建方式？ 如果需要返回值，线程如何创建？ volatile的作用？能否在i++时使用？ synchronized的作用？ 假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？ 设计模式了解吗？了">
+    <meta name="description" content="阿里笔试总结大致题型7道单选 8道多选 3道算法题 共100分钟 考试内容选择中包括操作系统、Linux命令、正则表达式、数据库SQL、代码补充等（树和森林、二分查找次数） 算法题  给出一棵好树，每个节点分为两种颜色，红色和蓝色，好树的定义为红色节点数大于蓝色节点数，若删除一条边，两棵树都是好树，则方案数加一。询问最终有多少个方案 给出一个数组，长度为$n$($n \in [1,10^5]$)，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一次面试-美团一面记录">
-<meta property="og:url" content="http://example.com/2023/04/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95-%E7%BE%8E%E5%9B%A2%E4%B8%80%E9%9D%A2%E8%AE%B0%E5%BD%95/index.html">
+<meta property="og:title" content="阿里笔试">
+<meta property="og:url" content="http://example.com/2023/04/12/%E9%98%BF%E9%87%8C%E7%AC%94%E8%AF%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="问题记录 简单自我介绍 在学校做过哪些项目，遇到过什么困难，怎么解决的？ HashMap的底层结构？是否能保证线程安全 如果要保证线程安全，需要用什么哈希表？结构？ 线程的创建方式？ 如果需要返回值，线程如何创建？ volatile的作用？能否在i++时使用？ synchronized的作用？ 假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？ 设计模式了解吗？了">
+<meta property="og:description" content="阿里笔试总结大致题型7道单选 8道多选 3道算法题 共100分钟 考试内容选择中包括操作系统、Linux命令、正则表达式、数据库SQL、代码补充等（树和森林、二分查找次数） 算法题  给出一棵好树，每个节点分为两种颜色，红色和蓝色，好树的定义为红色节点数大于蓝色节点数，若删除一条边，两棵树都是好树，则方案数加一。询问最终有多少个方案 给出一个数组，长度为$n$($n \in [1,10^5]$)，">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-06T13:01:28.000Z">
-<meta property="article:modified_time" content="2023-04-06T13:58:21.959Z">
+<meta property="article:published_time" content="2023-04-12T04:30:11.000Z">
+<meta property="article:modified_time" content="2023-04-12T04:48:03.145Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="面试">
+<meta property="article:tag" content="笔试">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>第一次面试-美团一面记录 - Hexo</title>
+  <title>阿里笔试 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="第一次面试-美团一面记录"></span>
+            <span id="subtitle" data-typed-text="阿里笔试"></span>
           
         </div>
 
@@ -208,8 +208,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-04-06 21:01" pubdate>
-          2023年4月6日 晚上
+        <time datetime="2023-04-12 12:30" pubdate>
+          2023年4月12日 下午
         </time>
       </span>
     
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          411 字
+          563 字
         
       </span>
     
@@ -231,7 +231,7 @@
         
         
         
-          4 分钟
+          5 分钟
         
       </span>
     
@@ -269,35 +269,30 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">第一次面试-美团一面记录</h1>
+            <h1 style="display: none">阿里笔试</h1>
             
             
               <div class="markdown-body">
                 
-                <h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ol>
-<li>简单自我介绍</li>
-<li>在学校做过哪些项目，遇到过什么困难，怎么解决的？</li>
-<li>HashMap的底层结构？是否能保证线程安全</li>
-<li>如果要保证线程安全，需要用什么哈希表？结构？</li>
-<li>线程的创建方式？</li>
-<li>如果需要返回值，线程如何创建？</li>
-<li>volatile的作用？能否在<code>i++</code>时使用？</li>
-<li>synchronized的作用？</li>
-<li>假设一个场景，要实现会议室预定的功能，你会怎么做？有哪些JUC的中间件可以直接使用？</li>
-<li>设计模式了解吗？了解哪些？</li>
-<li>简单提了一下消息队列</li>
-<li>数据库的锁有哪些？</li>
-<li>数据库的索引作用及结构？</li>
-<li>B+树的好处？</li>
-<li>B树与B+树的区别？</li>
-<li>数据库的事务？</li>
-<li>为什么一张表不应超过500万行？表如果大于500万行应该如何存储？</li>
-<li>你未来的职业规划是什么样的？</li>
-<li>你什么时候可以来实习？实习多久？</li>
-<li>你有什么需要提问的？</li>
+                <h2 id="阿里笔试总结"><a href="#阿里笔试总结" class="headerlink" title="阿里笔试总结"></a>阿里笔试总结</h2><h3 id="大致题型"><a href="#大致题型" class="headerlink" title="大致题型"></a>大致题型</h3><p>7道单选</p>
+<p>8道多选</p>
+<p>3道算法题</p>
+<p>共<strong>100</strong>分钟</p>
+<h3 id="考试内容"><a href="#考试内容" class="headerlink" title="考试内容"></a>考试内容</h3><p>选择中包括操作系统、Linux命令、正则表达式、数据库SQL、代码补充等（树和森林、二分查找次数）</p>
+<p>算法题</p>
+<ol>
+<li>给出一棵<strong>好树</strong>，每个节点分为两种颜色，红色和蓝色，好树的定义为红色节点数大于蓝色节点数，若删除一条边，两棵树都是好树，则方案数加一。询问最终有多少个方案</li>
+<li>给出一个数组，长度为$n$($n \in [1,10^5]$)，每次操作可以将一个数的某一个二进制位反转（0变为1，或者1变为0）。求出将整个数组变为相等的数所需要的最小操作数。</li>
+<li>给出一个数x，范围是$x \in [1,10^{100000}]$，你可以删除这个数中任意连续的一段数，若能够使得这个数变成15的倍数，则方案数加一，删除的下标不同，则视为方案不同。举例：12120，你可以有三种方案使得这个数变成120，有一种方案使得这个数变成0，共四种方案。</li>
 </ol>
-<h3 id="面试感想"><a href="#面试感想" class="headerlink" title="面试感想"></a>面试感想</h3><p>Java特性部分答得还算流畅，会议室场景部分确实很迷。数据库的部分基本没看，都没怎么答上来……</p>
-<p>总体流程40分钟，没有算法题，面试官基本上不苟言笑，我倒是有点嬉皮笑脸orz</p>
+<h3 id="结果记录"><a href="#结果记录" class="headerlink" title="结果记录"></a>结果记录</h3><p>选择题知识欠缺严重，Linux命令、正则表达式等需要学习</p>
+<p>算法题写出了前两道，最后一道过了20%。</p>
+<p>第一题</p>
+<p>dfs</p>
+<p>第二题</p>
+<p>统计每个二进制位上$1$的个数，若1的个数大于数的个数的一半，则将这一位统一为1，否则，统一成0即可</p>
+<p>第三题</p>
+<p>将这个数每一位存储到数组中，求其前缀和。一个数是15的倍数要满足两个条件，一个是最后一位是0或者5，另一个是所有位数和为3的倍数。</p>
 
                 
               </div>
@@ -310,7 +305,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E9%9D%A2%E8%AF%95/">#面试</a>
+        <a href="/tags/%E7%AC%94%E8%AF%95/">#笔试</a>
       
     </div>
   
@@ -322,20 +317,20 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>第一次面试-美团一面记录</div>
-      <div>http://example.com/2023/04/06/第一次面试-美团一面记录/</div>
+      <div>阿里笔试</div>
+      <div>http://example.com/2023/04/12/阿里笔试/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>interestingsoul</div>
+          <div>John Doe</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年4月6日</div>
+          <div>2023年4月12日</div>
         </div>
       
       
@@ -367,9 +362,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/" title="美团二面">
+                      <a href="/2023/04/15/%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/" title="随手一记">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">美团二面</span>
+                        <span class="hidden-mobile">随手一记</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -377,8 +372,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/04/01/JVM-Learning/" title="JVM Learning">
-                        <span class="hidden-mobile">JVM Learning</span>
+                      <a href="/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/" title="美团二面">
+                        <span class="hidden-mobile">美团二面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

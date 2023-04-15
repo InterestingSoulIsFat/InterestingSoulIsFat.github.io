@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>随手一记</title>
+    <link href="/2023/04/15/%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/"/>
+    <url>/2023/04/15/%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="3ba9806c390ffb3771f9ae017e090385c29c888791bae860d97368746e3c3d2b">90b802059200f1da98db072b6ecfd07791fb382f17959c11a7aad96ea7c10601184d6a5270a85c7f192158c3a751a4ce1d955c7b1863d48cc2883354ca435fe79a33cf055ca9951b4d98a0e2e8aea1caac478e245002fdf7781da0626155a24a0fe487155720144b23f9755fd58d598b601484d48be3f875dcac16f4d20a27e7a6769fcb509f3987c6ae42b69790e029bcb46a35aa509f9b16ff12f5c11c4d307faac364fcf4c583089f6dad0e2d6f4f</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>阿里笔试</title>
+    <link href="/2023/04/12/%E9%98%BF%E9%87%8C%E7%AC%94%E8%AF%95/"/>
+    <url>/2023/04/12/%E9%98%BF%E9%87%8C%E7%AC%94%E8%AF%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="阿里笔试总结"><a href="#阿里笔试总结" class="headerlink" title="阿里笔试总结"></a>阿里笔试总结</h2><h3 id="大致题型"><a href="#大致题型" class="headerlink" title="大致题型"></a>大致题型</h3><p>7道单选</p><p>8道多选</p><p>3道算法题</p><p>共<strong>100</strong>分钟</p><h3 id="考试内容"><a href="#考试内容" class="headerlink" title="考试内容"></a>考试内容</h3><p>选择中包括操作系统、Linux命令、正则表达式、数据库SQL、代码补充等（树和森林、二分查找次数）</p><p>算法题</p><ol><li>给出一棵<strong>好树</strong>，每个节点分为两种颜色，红色和蓝色，好树的定义为红色节点数大于蓝色节点数，若删除一条边，两棵树都是好树，则方案数加一。询问最终有多少个方案</li><li>给出一个数组，长度为$n$($n \in [1,10^5]$)，每次操作可以将一个数的某一个二进制位反转（0变为1，或者1变为0）。求出将整个数组变为相等的数所需要的最小操作数。</li><li>给出一个数x，范围是$x \in [1,10^{100000}]$，你可以删除这个数中任意连续的一段数，若能够使得这个数变成15的倍数，则方案数加一，删除的下标不同，则视为方案不同。举例：12120，你可以有三种方案使得这个数变成120，有一种方案使得这个数变成0，共四种方案。</li></ol><h3 id="结果记录"><a href="#结果记录" class="headerlink" title="结果记录"></a>结果记录</h3><p>选择题知识欠缺严重，Linux命令、正则表达式等需要学习</p><p>算法题写出了前两道，最后一道过了20%。</p><p>第一题</p><p>dfs</p><p>第二题</p><p>统计每个二进制位上$1$的个数，若1的个数大于数的个数的一半，则将这一位统一为1，否则，统一成0即可</p><p>第三题</p><p>将这个数每一位存储到数组中，求其前缀和。一个数是15的倍数要满足两个条件，一个是最后一位是0或者5，另一个是所有位数和为3的倍数。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>笔试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>美团二面</title>
     <link href="/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/"/>
     <url>/2023/04/10/%E7%BE%8E%E5%9B%A2%E4%BA%8C%E9%9D%A2/</url>
