@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>阿里云一面</title>
+    <link href="/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="阿里云一面记录"><a href="#阿里云一面记录" class="headerlink" title="阿里云一面记录"></a>阿里云一面记录</h2><p>电话面试，大概45分钟</p><ol><li><p>自我介绍</p></li><li><p>Java内存泄露的场景或者例子有哪些？</p></li><li><p>写一道题，面试官描述，写出伪代码即可</p><ul><li>在一台8核16G内存的机器上，有2.5T的随机数，随机数为<strong>单字节</strong>，如何在O(n)的时间复杂度实现排序</li><li>答案：采用桶排序的方法，因为是单字节数，只有$2^8&#x3D;256$个数，所以只需要记录每个数的个数即可</li></ul></li><li><p>通信相关问题：信道和信源的编码方式有哪些？</p></li><li><p>TCP&#x2F;IP协议四层分别是什么？</p></li><li><p>在这些协议中，有哪些是安全加密相关的？SSL（传输层）、隧道（VPN，网络层）、链路层不知道？</p></li><li><p>反问环节：对我的评价，发展的建议？</p><ul><li>注重数据结构、操作系统和计算机网络的基础</li></ul></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>面试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>这是一篇加密文章</title>
     <link href="/2023/04/26/%E5%BF%83%E6%80%81%E7%88%86%E7%82%B8230426/"/>
     <url>/2023/04/26/%E5%BF%83%E6%80%81%E7%88%86%E7%82%B8230426/</url>
@@ -61,11 +80,11 @@
   
   
   <entry>
-    <title>随手一记</title>
+    <title>文章本天成，妙手偶得之</title>
     <link href="/2023/04/15/%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/"/>
     <url>/2023/04/15/%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="3ba9806c390ffb3771f9ae017e090385c29c888791bae860d97368746e3c3d2b">90b802059200f1da98db072b6ecfd07791fb382f17959c11a7aad96ea7c10601184d6a5270a85c7f192158c3a751a4ce1d955c7b1863d48cc2883354ca435fe79a33cf055ca9951b4d98a0e2e8aea1caac478e245002fdf7781da0626155a24a0fe487155720144b23f9755fd58d598b601484d48be3f875dcac16f4d20a27e7a6769fcb509f3987c6ae42b69790e029bcb46a35aa509f9b16ff12f5c11c4d307faac364fcf4c583089f6dad0e2d6f4f</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="6fa0a792e85461417ec788cb035d263f8c212c991d03c2140d4bb1d11a85a04d">d484631fe9ae07d42600865d3ff8b9fe4431af9f0a7a42ec685cd54da75458a7c1319fc11bb370d4ab7cbcd7e5b61d3589973d84fb50603e074113e01f989b0fab53a0d1b9aaf0030b9a2dc0ff94b88426571874e9fbc2d65d8385eceac253dbaa1d2cda2df7fdc3614da68a6ec48da44e8e3ff8ae664a7c32ec8f3b6a5b7259833bdc9f72adf0c87d10e09b87b4f1e89c4ba051870559737db2f017c9e4b4b5efa1508f5a2b7d8f80decbb06a640fea</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
     
