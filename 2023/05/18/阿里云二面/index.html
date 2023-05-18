@@ -16,22 +16,22 @@
   <meta name="author" content="InterestingSoul">
   <meta name="keywords" content="">
   
-    <meta name="description" content="阿里云一面记录电话面试，大概45分钟  自我介绍  Java内存泄露的场景或者例子有哪些？  写一道题，面试官描述，写出伪代码即可  在一台8核16G内存的机器上，有2.5T的随机数，随机数为单字节，如何在O(n)的时间复杂度实现排序 答案：采用桶排序的方法，因为是单字节数，只有$2^8&#x3D;256$个数，所以只需要记录每个数的个数即可   通信相关问题：信道和信源的编码方式有哪些？  TC">
+    <meta name="description" content="阿里云二面问题总结 自我介绍  计网的五层结构  计算机ping另外一个主机的流程是什么？ 答出了交换机获取MAC地址 接下来的流程没想出来  问路方系统相关的，数据如何处理  系统整体的架构  系统的特点和难点  写一道题，手动实现一下开方，参数为被开方数x，和精度p。要求$|y \times y - x | &lt;&#x3D; p$。利用二分法写了一下  反问环节，提问有什么学习的方向？ 多">
 <meta property="og:type" content="article">
-<meta property="og:title" content="阿里云一面">
-<meta property="og:url" content="http://example.com/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/index.html">
+<meta property="og:title" content="阿里云二面">
+<meta property="og:url" content="http://example.com/2023/05/18/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%8C%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="阿里云一面记录电话面试，大概45分钟  自我介绍  Java内存泄露的场景或者例子有哪些？  写一道题，面试官描述，写出伪代码即可  在一台8核16G内存的机器上，有2.5T的随机数，随机数为单字节，如何在O(n)的时间复杂度实现排序 答案：采用桶排序的方法，因为是单字节数，只有$2^8&#x3D;256$个数，所以只需要记录每个数的个数即可   通信相关问题：信道和信源的编码方式有哪些？  TC">
+<meta property="og:description" content="阿里云二面问题总结 自我介绍  计网的五层结构  计算机ping另外一个主机的流程是什么？ 答出了交换机获取MAC地址 接下来的流程没想出来  问路方系统相关的，数据如何处理  系统整体的架构  系统的特点和难点  写一道题，手动实现一下开方，参数为被开方数x，和精度p。要求$|y \times y - x | &lt;&#x3D; p$。利用二分法写了一下  反问环节，提问有什么学习的方向？ 多">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-05-10T11:05:23.000Z">
-<meta property="article:modified_time" content="2023-05-10T11:17:27.121Z">
+<meta property="article:published_time" content="2023-05-18T07:42:25.000Z">
+<meta property="article:modified_time" content="2023-05-18T07:49:50.093Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="面试">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>阿里云一面 - Hexo</title>
+  <title>阿里云二面 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="阿里云一面"></span>
+            <span id="subtitle" data-typed-text="阿里云二面"></span>
           
         </div>
 
@@ -208,8 +208,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-05-10 19:05" pubdate>
-          2023年5月10日 晚上
+        <time datetime="2023-05-18 15:42" pubdate>
+          2023年5月18日 下午
         </time>
       </span>
     
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          289 字
+          229 字
         
       </span>
     
@@ -231,7 +231,7 @@
         
         
         
-          3 分钟
+          2 分钟
         
       </span>
     
@@ -269,35 +269,34 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">阿里云一面</h1>
+            <h1 style="display: none">阿里云二面</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="阿里云一面记录"><a href="#阿里云一面记录" class="headerlink" title="阿里云一面记录"></a>阿里云一面记录</h2><p>电话面试，大概45分钟</p>
-<ol>
+                <h2 id="阿里云二面问题总结"><a href="#阿里云二面问题总结" class="headerlink" title="阿里云二面问题总结"></a>阿里云二面问题总结</h2><ol>
 <li><p>自我介绍</p>
 </li>
-<li><p>Java内存泄露的场景或者例子有哪些？</p>
+<li><p>计网的五层结构</p>
 </li>
-<li><p>写一道题，面试官描述，写出伪代码即可</p>
-<ul>
-<li>在一台8核16G内存的机器上，有2.5T的随机数，随机数为<strong>单字节</strong>，如何在O(n)的时间复杂度实现排序</li>
-<li>答案：采用桶排序的方法，因为是单字节数，只有$2^8&#x3D;256$个数，所以只需要记录每个数的个数即可</li>
-</ul>
+<li><p>计算机<code>ping</code>另外一个主机的流程是什么？</p>
+<p>答出了交换机获取MAC地址</p>
+<p>接下来的流程没想出来</p>
 </li>
-<li><p>通信相关问题：信道和信源的编码方式有哪些？</p>
+<li><p>问路方系统相关的，数据如何处理</p>
 </li>
-<li><p>TCP&#x2F;IP协议四层分别是什么？</p>
+<li><p>系统整体的架构</p>
 </li>
-<li><p>在这些协议中，有哪些是安全加密相关的？SSL（传输层）、隧道（VPN，网络层）、链路层不知道？</p>
+<li><p>系统的特点和难点</p>
 </li>
-<li><p>反问环节：对我的评价，发展的建议？</p>
-<ul>
-<li>注重数据结构、操作系统和计算机网络的基础</li>
-</ul>
+<li><p>写一道题，手动实现一下开方，参数为被开方数x，和精度<code>p</code>。要求$|y \times y - x | &lt;&#x3D; p$。利用二分法写了一下</p>
+</li>
+<li><p>反问环节，提问有什么学习的方向？</p>
+<p>多学习一下开源的代码和项目</p>
 </li>
 </ol>
+<p>在过程中穿插了一些研究生期间的经历，研究的内容，本科学习的知识等等。</p>
+<p>整体还算比较轻松</p>
 
                 
               </div>
@@ -322,8 +321,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>阿里云一面</div>
-      <div>http://example.com/2023/05/10/阿里云一面/</div>
+      <div>阿里云二面</div>
+      <div>http://example.com/2023/05/18/阿里云二面/</div>
     </div>
     <div class="license-meta">
       
@@ -335,7 +334,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年5月10日</div>
+          <div>2023年5月18日</div>
         </div>
       
       
@@ -367,18 +366,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/05/18/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%8C%E9%9D%A2/" title="阿里云二面">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">阿里云二面</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/04/26/%E5%BF%83%E6%80%81%E7%88%86%E7%82%B8230426/" title="这是一篇加密文章">
-                        <span class="hidden-mobile">这是一篇加密文章</span>
+                      <a href="/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/" title="阿里云一面">
+                        <span class="hidden-mobile">阿里云一面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>阿里云二面</title>
+    <link href="/2023/05/18/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/05/18/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="阿里云二面问题总结"><a href="#阿里云二面问题总结" class="headerlink" title="阿里云二面问题总结"></a>阿里云二面问题总结</h2><ol><li><p>自我介绍</p></li><li><p>计网的五层结构</p></li><li><p>计算机<code>ping</code>另外一个主机的流程是什么？</p><p>答出了交换机获取MAC地址</p><p>接下来的流程没想出来</p></li><li><p>问路方系统相关的，数据如何处理</p></li><li><p>系统整体的架构</p></li><li><p>系统的特点和难点</p></li><li><p>写一道题，手动实现一下开方，参数为被开方数x，和精度<code>p</code>。要求$|y \times y - x | &lt;&#x3D; p$。利用二分法写了一下</p></li><li><p>反问环节，提问有什么学习的方向？</p><p>多学习一下开源的代码和项目</p></li></ol><p>在过程中穿插了一些研究生期间的经历，研究的内容，本科学习的知识等等。</p><p>整体还算比较轻松</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>面试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>阿里云一面</title>
     <link href="/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/"/>
     <url>/2023/05/10/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E9%9D%A2/</url>
